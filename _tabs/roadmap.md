@@ -7,7 +7,7 @@ order: 4
 
 PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까지** 단계별로 정리했습니다.
 
-1~4단계는 순서대로 학습하고, 5~7단계는 필요한 분야부터 병행하세요. 난이도는 BOJ 기준의 대략적인 범위입니다.
+**1~4단계는 순서대로** 학습하세요. 뒤 단계의 공통 기반입니다. **5~8단계는 병행** 가능합니다 — 관심 분야와 대회 일정에 따라 선택하세요. 난이도는 BOJ 기준의 대략적인 범위입니다.
 
 ---
 
@@ -59,6 +59,11 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 | 게임 DP와 Profile DP | Platinum ~ Diamond | 예정 |
 | CHT와 Li Chao Tree | Platinum ~ Diamond | 예정 |
 | D&C·Knuth·Slope Trick 최적화 | Diamond ~ Ruby | 예정 |
+
+---
+
+> **5~8단계는 병행 학습 가능합니다.** 1~4단계를 마친 뒤 대회 일정·관심 분야에 따라 선택하세요.
+{: .prompt-tip }
 
 ## 5단계 — 트리와 질의 자료구조
 
