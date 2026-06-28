@@ -146,7 +146,7 @@ title: PS/CP 블로그 백로그
 | 항목 | 무엇 / 왜 | 난이도 |
 |------|-----------|--------|
 | **`new-post.sh` 로드맵 링크 자동 안내** | **무엇:** 개념글 생성 후 종료 메시지에 "`_tabs/roadmap.md`에 링크 추가" + 복붙용 표 라인 출력(자동 sed 삽입은 위치 추론 위험 → 안내까지만). **왜:** CLAUDE.md 규칙이지만 생성 안내에 빠져 자주 누락 → 죽은 학습 경로. | M |
-| **pre-commit 훅 (빌드/링크/Liquid 가드)** | **무엇:** `tools/git-hooks/pre-commit` + `git config core.hooksPath`. raw/endraw 밖 `{{` 검출, 경량 grep 기본, `RUN_FULL=1`일 때만 `tools/test.sh`. **왜:** CLAUDE.md의 Liquid 함정·내부 링크 함정을 커밋 시점에 잡아 CI 실패 왕복 감소. | M |
+| **pre-commit 훅 (빌드/링크/Liquid 가드)** | **무엇:** `tools/git-hooks/pre-commit` + `git config core.hooksPath`. raw/endraw 밖 이중 중괄호 검출, 경량 grep 기본, `RUN_FULL=1`일 때만 `tools/test.sh`. **왜:** CLAUDE.md의 Liquid 함정·내부 링크 함정을 커밋 시점에 잡아 CI 실패 왕복 감소. | M |
 | **이미지 최적화 파이프라인** | **무엇:** `tools/optimize-images.sh`(oxipng/pngquant/imagemagick) + 선택적 CI 용량 경고. CLAUDE.md에 "이미지는 assets/img/posts/" 규칙. **왜:** 현재 mermaid 위주라 이미지 적으나 그림 풀이·BOJ 캡처 백업 자산이 늘면 빌드·로딩 무거워짐. OG 이미지도 같은 파이프라인 활용. | M |
 | **로컬 배포상태 확인 헬퍼** | **무엇:** `tools/deploy-status.sh`(gh CLI로 최근 워크플로 상태·실패 로그). `.vscode/tasks.json`에 "🩺 배포 상태" 태스크. **왜:** 현재 배포 확인은 Actions 웹 방문 필요 → 마찰. CI 인자 깨짐 같은 문제 조기 발견. | S |
 | **CLAUDE.md/docs 동기화** | **무엇:** 로드맵이 이미 풀버전으로 커밋·푸시됨 → CLAUDE.md 124~130행 "로드맵 업데이트" 예시를 새 표 구조에 맞춤. 드래프트/배포상태/이미지/alt/자기호스팅/저작권 규칙 추가. **왜:** 설명과 실제 어긋남 방지, 기여자 일관성. | S |
