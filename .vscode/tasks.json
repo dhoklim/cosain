@@ -2,25 +2,46 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Run Jekyll Server",
+      "label": "🚀 블로그 미리보기 (livereload)",
       "type": "shell",
-      "command": "./tools/run.sh",
+      "command": "export PATH=\"$HOME/.rbenv/bin:$PATH\" && eval \"$(rbenv init - zsh)\" && bash tools/run.sh",
       "group": {
         "kind": "build",
         "isDefault": true
       },
-      "problemMatcher": [],
-      "detail": "Runs the Jekyll server with live reload."
-    },
-    {
-      "label": "Build Jekyll Site",
-      "type": "shell",
-      "command": "./tools/test.sh",
-      "group": {
-        "kind": "build"
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
       },
       "problemMatcher": [],
-      "detail": "Build the Jekyll site for production."
+      "detail": "http://127.0.0.1:4000 — 파일 저장 시 자동 새로고침"
+    },
+    {
+      "label": "✍️  새 글 만들기",
+      "type": "shell",
+      "command": "export PATH=\"$HOME/.rbenv/bin:$PATH\" && eval \"$(rbenv init - zsh)\" && bash scripts/new-post.sh",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": [],
+      "detail": "개념 설명글 / 문제 풀이글 템플릿 자동 생성"
+    },
+    {
+      "label": "📦 빌드 검사",
+      "type": "shell",
+      "command": "export PATH=\"$HOME/.rbenv/bin:$PATH\" && eval \"$(rbenv init - zsh)\" && bash tools/test.sh",
+      "group": "none",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated",
+        "clear": true
+      },
+      "problemMatcher": [],
+      "detail": "배포 전 htmlproofer 검사 포함 빌드"
     }
   ]
 }

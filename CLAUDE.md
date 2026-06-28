@@ -8,13 +8,22 @@ PS(Problem Solving) / CP(Competitive Programming) 알고리즘 개념 설명과 
 
 ## 로컬 개발
 
+**VS Code에서**: `Cmd+Shift+P` → "Tasks: Run Task" → 원하는 태스크 선택
+
+| 태스크 | 설명 |
+|--------|------|
+| 🚀 블로그 미리보기 (livereload) | 로컬 서버 시작 → http://127.0.0.1:4000 (파일 저장 시 자동 새로고침) |
+| ✍️  새 글 만들기 | 인터랙티브 스크립트로 front matter 포함 템플릿 파일 생성 |
+| 📦 빌드 검사 | 배포 전 htmlproofer 포함 전체 빌드 |
+
+**터미널에서 직접**: `~/.zshrc`에 rbenv가 등록되어 있으므로 새 터미널을 열면 바로 사용 가능
+
 ```bash
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh)"
-bundle exec jekyll serve   # http://127.0.0.1:4000
+bundle exec jekyll serve   # 미리보기
+bash scripts/new-post.sh   # 새 글 생성
 ```
 
-push하면 GitHub Actions가 자동으로 빌드·배포합니다.
+push하면 GitHub Actions가 자동으로 빌드·배포합니다. 배포 상태는 https://github.com/dhoklim/dhoklim.github.io/actions 에서 확인.
 
 ## 글 파일 규칙
 
