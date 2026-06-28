@@ -30,9 +30,10 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 | 누적 합과 차분 배열 | Silver ~ Gold | 예정 |
 | 투 포인터와 슬라이딩 윈도 | Silver ~ Gold | 예정 |
 | 이분 탐색과 매개변수 탐색 | Silver ~ Gold | 예정 |
+| 삼분 탐색 | Silver ~ Gold | 예정 |
 | 그리디 알고리즘 | Silver ~ Gold | 예정 |
-| 좌표 압축과 스위핑 | Gold | 예정 |
 | 분할 정복 | Silver ~ Platinum | 예정 |
+| 좌표 압축과 스위핑 | Gold | 예정 |
 
 ## 3단계 — 그래프
 
@@ -55,6 +56,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 | 배낭 문제, LIS, LCS | Gold | 예정 |
 | 트리 DP와 DAG DP | Gold ~ Platinum | 예정 |
 | 구간 DP와 비트마스크 DP | Gold ~ Platinum | 예정 |
+| SOS DP (부분집합 합 DP) | Platinum | 예정 |
 | 자릿수 DP와 확률 DP | Platinum | 예정 |
 | 게임 DP와 Profile DP | Platinum ~ Diamond | 예정 |
 | CHT와 Li Chao Tree | Platinum ~ Diamond | 예정 |
@@ -72,6 +74,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 | Fenwick Tree와 Segment Tree | Gold | 예정 |
 | LCA와 Euler Tour Technique | Gold ~ Platinum | 예정 |
 | Sparse Table과 Lazy Propagation | Platinum | 예정 |
+| DSU on Tree (small-to-large) | Platinum | 예정 |
 | Persistent Segment Tree | Platinum ~ Diamond | 예정 |
 | HLD와 Centroid Decomposition | Platinum ~ Diamond | 예정 |
 | Segment Tree Beats와 Li Chao Tree | Diamond | 예정 |
@@ -96,6 +99,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 | 조합론, CRT, 뫼비우스 반전 | Gold ~ Platinum | 예정 |
 | 행렬 거듭제곱과 선형 점화식 | Gold ~ Platinum | 예정 |
 | CCW, 선분 교차, 볼록 껍질 | Gold ~ Platinum | 예정 |
+| 게임 이론과 스프라그–그런디 | Gold ~ Platinum | 예정 |
 | Mo's Algorithm과 제곱근 분할 | Platinum | 예정 |
 | Parallel Binary Search와 DSU Rollback | Platinum ~ Diamond | 예정 |
 | Miller–Rabin과 Pollard's Rho | Platinum ~ Diamond | 예정 |
