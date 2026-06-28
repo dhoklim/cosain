@@ -15,12 +15,12 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 
 | 주제 | 난이도 | 글 |
 |------|--------|-----|
-| C++ 문법과 빠른 입출력 | 입문 ~ Bronze | 예정 |
-| 시간·공간복잡도 | Bronze | 예정 |
-| 배열, 문자열, STL | Bronze ~ Silver | 예정 |
-| 스택, 큐, 덱, 우선순위 큐 | Silver | 예정 |
-| 재귀와 백트래킹 | Silver | 예정 |
-| 완전탐색과 비트마스킹 | Silver ~ Gold | 예정 |
+| C++ 문법과 빠른 입출력 | 입문 ~ Bronze | [개념 보기]({{ '/posts/cpp-fast-io/' | relative_url }}) |
+| 시간·공간복잡도 | Bronze | [개념 보기]({{ '/posts/time-space-complexity/' | relative_url }}) |
+| 배열, 문자열, STL | Bronze ~ Silver | [개념 보기]({{ '/posts/array-string-stl/' | relative_url }}) |
+| 스택, 큐, 덱, 우선순위 큐 | Silver | [개념 보기]({{ '/posts/stack-queue-deque-pq/' | relative_url }}) |
+| 재귀와 백트래킹 | Silver | [개념 보기]({{ '/posts/recursion-backtracking/' | relative_url }}) |
+| 완전탐색과 비트마스킹 | Silver ~ Gold | [개념 보기]({{ '/posts/bruteforce-bitmask/' | relative_url }}) |
 
 ## 2단계 — 정렬과 탐색
 
