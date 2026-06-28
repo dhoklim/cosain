@@ -2,7 +2,7 @@
 
 PS(Problem Solving) / CP(Competitive Programming) 알고리즘 개념 설명과 문제 풀이를 공개 교육용으로 발행하는 블로그.
 
-- **URL**: https://dhoklim.github.io
+- **URL**: https://dhoklim.github.io/cosain/
 - **스택**: Jekyll + Chirpy 7.6.0, GitHub Pages, GitHub Actions 자동 배포
 - **언어**: 한국어, 코드는 C++ 위주
 
@@ -23,7 +23,7 @@ bundle exec jekyll serve   # 미리보기
 bash scripts/new-post.sh   # 새 글 생성
 ```
 
-push하면 GitHub Actions가 자동으로 빌드·배포합니다. 배포 상태는 https://github.com/dhoklim/dhoklim.github.io/actions 에서 확인.
+push하면 GitHub Actions가 자동으로 빌드·배포합니다. 배포 상태는 https://github.com/dhoklim/cosain/actions 에서 확인.
 
 ## 글 파일 규칙
 
@@ -130,5 +130,5 @@ graph TD
 새 개념 글을 쓰면 `_tabs/roadmap.md`의 해당 행에 링크를 추가하세요.
 
 ```markdown
-| DFS / BFS | Silver ~ Gold | [개념 보기](/posts/dfs-bfs/) |
+| DFS / BFS | Silver ~ Gold | [개념 보기]({{ '/posts/dfs-bfs/' | relative_url }}) |
 ```

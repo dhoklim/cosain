@@ -26,7 +26,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 
 | 주제 | 난이도 | 글 |
 |------|--------|-----|
-| 정렬 알고리즘 | Bronze ~ Silver | [개념 보기](/posts/sorting-algorithms/) |
+| 정렬 알고리즘 | Bronze ~ Silver | [개념 보기]({{ '/posts/sorting-algorithms/' | relative_url }}) |
 | 누적 합과 차분 배열 | Silver ~ Gold | 예정 |
 | 투 포인터와 슬라이딩 윈도 | Silver ~ Gold | 예정 |
 | 이분 탐색과 매개변수 탐색 | Silver ~ Gold | 예정 |
@@ -38,7 +38,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 
 | 주제 | 난이도 | 글 |
 |------|--------|-----|
-| DFS / BFS | Silver ~ Gold | [개념 보기](/posts/dfs-bfs/) |
+| DFS / BFS | Silver ~ Gold | [개념 보기]({{ '/posts/dfs-bfs/' | relative_url }}) |
 | 위상 정렬과 DAG | Gold | 예정 |
 | 서로소 집합과 최소 신장 트리 | Gold | 예정 |
 | 최단 경로 | Gold ~ Platinum | 예정 |
@@ -51,7 +51,7 @@ PS/CP 알고리즘을 **C++ 입문부터 BOJ Diamond/Ruby·ICPC 상위 수준까
 
 | 주제 | 난이도 | 글 |
 |------|--------|-----|
-| DP 입문 | Silver | [개념 보기](/posts/dynamic-programming/) |
+| DP 입문 | Silver | [개념 보기]({{ '/posts/dynamic-programming/' | relative_url }}) |
 | 배낭 문제, LIS, LCS | Gold | 예정 |
 | 트리 DP와 DAG DP | Gold ~ Platinum | 예정 |
 | 구간 DP와 비트마스크 DP | Gold ~ Platinum | 예정 |
