@@ -1,6 +1,7 @@
 ---
 title: "정렬 알고리즘 — O(n²)부터 O(n log n)까지"
 date: 2026-06-28 12:00:00 +0900
+description: "버블·선택·삽입 정렬부터 합병·퀵 정렬, STL sort, 계수 정렬까지 C++ 구현과 복잡도 비교. 어떤 정렬을 언제 써야 하는지 기준도 정리합니다."
 categories: [알고리즘, 정렬]
 tags: [sort, merge-sort, quick-sort, bubble-sort, selection-sort, insertion-sort, bronze, silver, series-sort]
 math: true

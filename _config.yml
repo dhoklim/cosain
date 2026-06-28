@@ -28,8 +28,8 @@ url: "https://dhoklim.github.io"
 github:
   username: dhoklim
 
-twitter:
-  username: # 비워둠
+# twitter:
+#   username:
 
 social:
   name: dhoklim
@@ -214,6 +214,7 @@ exclude:
   - "*.gemspec"
   - docs
   - tools
+  - scripts
   - README.md
   - LICENSE
   - purgecss.js

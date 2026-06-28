@@ -37,6 +37,7 @@ push하면 GitHub Actions가 자동으로 빌드·배포합니다. 배포 상태
 ---
 title: "제목"
 date: YYYY-MM-DD HH:MM:SS +0900
+description: "80~120자 한국어 요약 — SERP 스니펫과 og:description에 사용됨 (필수)"
 categories: [알고리즘, <주제>]   # DP | 그래프 | 정렬 | 자료구조 | 수학 | 그리디 | 문자열
 tags: [소문자태그, silver, series-<주제>]
 math: true
@@ -48,10 +49,11 @@ toc: true
 **문제 풀이글**
 ```yaml
 ---
-title: "[BOJ 번호] 문제 제목"
+title: "[출처 번호] 문제 제목"
 date: YYYY-MM-DD HH:MM:SS +0900
-categories: [문제풀이, <출처>]   # 백준 | Codeforces | 프로그래머스
-tags: [알고리즘태그, 난이도, boj-번호]
+description: "80~120자 한국어 요약 (필수)"
+categories: [문제풀이, <출처>]   # Codeforces | 프로그래머스 | AtCoder
+tags: [알고리즘태그, 난이도, cf-번호]
 math: true
 toc: true
 ---
@@ -70,12 +72,14 @@ toc: true
 6. 연습문제 — BOJ/CF 링크 테이블
 
 **문제 풀이글**
-1. 문제 — BOJ 링크 + 핵심 요약 (전문 복붙 금지)
+1. 문제 — 원문 링크 + 핵심 요약 (전문 복붙 금지, 저작권 주의)
 2. 접근/관찰
 3. 알고리즘 & 복잡도
 4. 코드 (C++)
 5. 반례/주의 — (선택)
 6. 배운 점
+
+> **BOJ(백준) 2026-04-28 종료**: BOJ 링크 사용 불가. Codeforces, AtCoder, 프로그래머스 문제 위주로 작성. BOJ 번호는 텍스트로만 표기(운영자 재공개 검토 중).
 
 ## Chirpy 특수 문법
 

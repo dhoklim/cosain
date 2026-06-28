@@ -154,10 +154,17 @@ elif [[ "$TYPE" == "2" ]]; then
   done
   TAGS_YAML="${TAGS_YAML%,}"
 
-  if [[ "$SRC_NUM" == "1" ]]; then
-    PROB_LINK="https://www.acmicpc.net/problem/${PROB_NUM}"
+  case "$SRC_NUM" in
+    1) PROB_LINK="" ;;  # BOJ 2026-04-28 종료 — 링크 대신 번호 텍스트만
+    2) PROB_LINK="https://codeforces.com/problemset/problem/${PROB_NUM}" ;;
+    3) PROB_LINK="https://school.programmers.co.kr/learn/courses/30/lessons/${PROB_NUM}" ;;
+    *) PROB_LINK="" ;;
+  esac
+
+  if [[ -n "$PROB_LINK" ]]; then
+    PROB_REF="[${SOURCE} ${PROB_NUM} — ${PROB_TITLE}](${PROB_LINK})"
   else
-    PROB_LINK=""
+    PROB_REF="${SOURCE} ${PROB_NUM} — ${PROB_TITLE}"
   fi
 
   cat > "$FILENAME" << FRONTMATTER
@@ -172,7 +179,7 @@ toc: true
 
 ## 문제
 
-[${SOURCE} ${PROB_NUM} — ${PROB_TITLE}](${PROB_LINK})
+${PROB_REF}
 
 > 핵심 요약:
 

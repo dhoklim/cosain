@@ -1,6 +1,7 @@
 ---
 title: "동적 프로그래밍(DP) 입문 — 중복 계산을 없애는 기술"
 date: 2026-06-28 11:00:00 +0900
+description: "DP의 핵심 원리인 최적 부분 구조와 중복 부분 문제를 이해하고, 탑다운(메모이제이션)·바텀업(타뷸레이션) 두 구현 방식을 C++로 설명합니다."
 categories: [알고리즘, DP]
 tags: [dp, memoization, tabulation, silver, series-dp]
 math: true
